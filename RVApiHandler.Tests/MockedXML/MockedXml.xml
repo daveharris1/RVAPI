@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<products xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://api.spreadshirt.net" offset="0" limit="50" count="19" sortField="default" sortOrder="default" xlink:href="http://api.spreadshirt.net/api/v1/shops/1130736/products">
+  <product xlink:href="http://api.spreadshirt.net/api/v1/shops/1130736/products/1479030484" id="147903084">
+    <name>Women’s Premium Tank Top</name>
+    <resources>
+      <resource xlink:href="http://image.spreadshirtmedia.net/image-server/v1/products/1474903084/views/1" mediaType="png" type="preview"/>
+    </resources>
+    <version>1487157198</version>
+  </product>
+  <product xlink:href="http://api.spreadshirt.net/api/v1/shops/1130736/products/1474902428" id="147902428">
+    <name>Mug</name>
+    <resources>
+      <resource xlink:href="http://image.spreadshirtmedia.net/image-server/v1/products/1479402428/views/3" mediaType="png" type="preview"/>
+    </resources>
+    <version>1483135583</version>
+  </product>
+  <product xlink:href="http://api.spreadshirt.net/api/v1/shops/1130736/products/1479042636" id="147902636">
+    <name>Panoramic Mug</name>
+    <resources>
+      <resource xlink:href="http://image.spreadshirtmedia.net/image-server/v1/products/1474902636/views/1" mediaType="png" type="preview"/>
+    </resources>
+    <version>1489471466</version>
+  </product>
+  <product xlink:href="http://api.spreadshirt.net/api/v1/shops/1130736/products/1479402709" id="147902709">
+    <name>Pillowcase, 80 x 40 cm</name>
+    <resources>
+      <resource xlink:href="http://image.spreadshirtmedia.net/image-server/v1/products/1479402709/views/1" mediaType="png" type="preview"/>
+    </resources>
+    <version>1483135773</version>
+  </product>
+  <product xlink:href="http://api.spreadshirt.net/api/v1/shops/1130736/products/1479402721" id="147902721">
+    <name>Contrast Snapback Cap</name>
+    <resources>
+      <resource xlink:href="http://image.spreadshirtmedia.net/image-server/v1/products/1474902721/views/1" mediaType="png" type="preview"/>
+    </resources>
+    <version>1483136009</version>
+  </product>
+  <product xlink:href="http://api.spreadshirt.net/api/v1/shops/1130736/products/1479042778" id="147902778">
+    <name>Teddy Bear</name>
+    <resources>
+      <resource xlink:href="http://image.spreadshirtmedia.net/image-server/v1/products/1479027748/views/1" mediaType="png" type="preview"/>
+    </resources>
+    <version>1483136148</version>
+  </product>
+  <product xlink:href="http://api.spreadshirt.net/api/v1/shops/1130736/products/1479024904" id="147902904">
+    <name>Buttons small 25 mm</name>
+    <resources>
+      <resource xlink:href="http://image.spreadshirtmedia.net/image-server/v1/products/1447902904/views/1" mediaType="png" type="preview"/>
+    </resources>
+    <version>1483136241</version>
+  </product>
+  <product xlink:href="http://api.spreadshirt.net/api/v1/shops/1130736/products/1474902584" id="147902584">
+    <name>Men's T-Shirt</name>
+    <resources>
+      <resource xlink:href="http://image.spreadshirtmedia.net/image-server/v1/products/1474902584/views/1" mediaType="png" type="preview"/>
+    </resources>
+    <version>1483135398</version>
+  </product>
+  <product xlink:href="http://api.spreadshirt.net/api/v1/shops/1130736/products/1447902407" id="147902407">
+    <name>Women's Tank Top</name>
+    <resources>
+      <resource xlink:href="http://image.spreadshirtmedia.net/image-server/v1/products/1447902407/views/1" mediaType="png" type="preview"/>
+    </resources>
+    <version>1483135269</version>
+  </product>
+  <product xlink:href="http://api.spreadshirt.net/api/v1/shops/1130736/products/1408975482" id="140897582">
+    <name>Baseball Cap</name>
+    <resources>
+      <resource xlink:href="http://image.spreadshirtmedia.net/image-server/v1/products/1408497582/views/1" mediaType="png" type="preview"/>
+    </resources>
+    <version>1482516293</version>
+  </product>
+  <product xlink:href="http://api.spreadshirt.net/api/v1/shops/1130736/products/1403452841" id="140352841">
+    <name>Women’s Premium Tank Top</name>
+    <resources>
+      <resource xlink:href="http://image.spreadshirtmedia.net/image-server/v1/products/1404352841/views/1" mediaType="png" type="preview"/>
+    </resources>
+    <version>1487157198</version>
+  </product>
+  <product xlink:href="http://api.spreadshirt.net/api/v1/shops/1130736/products/1400464584" id="140046584">
+    <name>Men's T-Shirt by American Apparel</name>
+    <resources>
+      <resource xlink:href="http://image.spreadshirtmedia.net/image-server/v1/products/1400446584/views/1" mediaType="png" type="preview"/>
+    </resources>
+    <version>1482516293</version>
+  </product>
+  <product xlink:href="http://api.spreadshirt.net/api/v1/shops/1130736/products/1400446293" id="140046293">
+    <name>Men’s Premium T-Shirt</name>
+    <resources>
+      <resource xlink:href="http://image.spreadshirtmedia.net/image-server/v1/products/1400446293/views/1" mediaType="png" type="preview"/>
+    </resources>
+    <version>1492502910</version>
+  </product>
+  <product xlink:href="http://api.spreadshirt.net/api/v1/shops/1130736/products/1399474905" id="139974905">
+    <name>Men's T-Shirt</name>
+    <resources>
+      <resource xlink:href="http://image.spreadshirtmedia.net/image-server/v1/products/1394974905/views/1" mediaType="png" type="preview"/>
+    </resources>
+    <version>1482516293</version>
+  </product>
+  <product xlink:href="http://api.spreadshirt.net/api/v1/shops/1130736/products/1399754287" id="139975287">
+    <name>Men's T-Shirt</name>
+    <resources>
+      <resource xlink:href="http://image.spreadshirtmedia.net/image-server/v1/products/1399475287/views/1" mediaType="png" type="preview"/>
+    </resources>
+    <version>1482516293</version>
+  </product>
+  <product xlink:href="http://api.spreadshirt.net/api/v1/shops/1130736/products/1399745271" id="139975271">
+    <name>Men's T-Shirt</name>
+    <resources>
+      <resource xlink:href="http://image.spreadshirtmedia.net/image-server/v1/products/1399745271/views/1" mediaType="png" type="preview"/>
+    </resources>
+    <version>1482516293</version>
+  </product>
+  <product xlink:href="http://api.spreadshirt.net/api/v1/shops/1130736/products/1394975259" id="139975259">
+    <name>Baseball Cap</name>
+    <resources>
+      <resource xlink:href="http://image.spreadshirtmedia.net/image-server/v1/products/1349975259/views/1" mediaType="png" type="preview"/>
+    </resources>
+    <version>1482516293</version>
+  </product>
+  <product xlink:href="http://api.spreadshirt.net/api/v1/shops/1130736/products/1349975038" id="139975038">
+    <name>Full Colour Mug</name>
+    <resources>
+      <resource xlink:href="http://image.spreadshirtmedia.net/image-server/v1/products/1399750438/views/1" mediaType="png" type="preview"/>
+    </resources>
+    <version>1482516293</version>
+  </product>
+  <product xlink:href="http://api.spreadshirt.net/api/v1/shops/1130736/products/1399754332" id="139975332">
+    <name>Lanyard</name>
+    <resources>
+      <resource xlink:href="http://image.spreadshirtmedia.net/image-server/v1/products/1399754332/views/1" mediaType="png" type="preview"/>
+    </resources>
+    <version>1482516293</version>
+  </product>
+</products>

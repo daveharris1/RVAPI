@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BA934218-B69E-4758-B69C-6BFFFCC4CBF7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RVApiHandler</RootNamespace>
+    <AssemblyName>RVApiHandler</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="HttpHandler\HttpCaller.cs" />
+    <Compile Include="HttpHandler\IHttpCaller.cs" />
+    <Compile Include="InstagramHandler\IInstagramCaller.cs" />
+    <Compile Include="InstagramHandler\InstagramCaller.cs" />
+    <Compile Include="InstagramModelConversionHandler\IInstagramModelHandler.cs" />
+    <Compile Include="InstagramModelConversionHandler\InstagramModelHandler.cs" />
+    <Compile Include="JsonModelConversionHandler\IJsonModelConverter.cs" />
+    <Compile Include="JsonModelConversionHandler\JsonModelConverter.cs" />
+    <Compile Include="Models\InstagramResponseModel.cs" />
+    <Compile Include="Models\RVHttpResponseModel.cs" />
+    <Compile Include="Models\SpreadShirtResponseModel.cs" />
+    <Compile Include="Models\YouTubeResponseModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RVFacadeHandler\IRVFacade.cs" />
+    <Compile Include="RVFacadeHandler\RVFacade.cs" />
+    <Compile Include="RVHttpResponseConversionHandler\IRVHttpResponseConvertor.cs" />
+    <Compile Include="RVHttpResponseConversionHandler\RVHttpResponseConvertor.cs" />
+    <Compile Include="SpreadShirtHandler\ISpreadShirtCaller.cs" />
+    <Compile Include="SpreadShirtHandler\SpreadShirtCaller.cs" />
+    <Compile Include="Urls\ApiUrls.cs" />
+    <Compile Include="XmlModelConversionHandler\IXmlModelConvertor.cs" />
+    <Compile Include="XmlModelConversionHandler\XmlModelConvertor.cs" />
+    <Compile Include="YouTubeHandler\IYouTubeCaller.cs" />
+    <Compile Include="YouTubeHandler\YouTubeCaller.cs" />
+    <Compile Include="YouTubeResponseModelHandler\IYTResponseModelHandler.cs" />
+    <Compile Include="YouTubeResponseModelHandler\YTResponseModelHandler.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
