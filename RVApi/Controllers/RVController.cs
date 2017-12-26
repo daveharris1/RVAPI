@@ -8,11 +8,11 @@ using System.Web.Http.Cors;
 
 namespace RVApi.Controllers
 {
-    public class RVVilessController : ApiController
+    public class RVController : ApiController
     {
         private IRVFacade _rvFacade;
 
-        public RVVilessController(IRVFacade rvFacade)
+        public RVController(IRVFacade rvFacade)
         {
             _rvFacade = rvFacade;
         }
