@@ -6,6 +6,6 @@
         public const string YouTubeEmbeddedUrl = "https://www.youtube.com/embed/";
         public const string SpreadShirtUrl = "http://api.spreadshirt.net/api/v1/shops/1130736/products";
         public const string SpreadShirtHomeUrl = "https://shop.spreadshirt.co.uk/RVviless/";
-        public const string InstagramUrl = "https://api.instagram.com/v1/tags/ukstreamers/media/recent?access_token=<token_here>";
+        public const string InstagramUrl = "https://api.instagram.com/v1/tags/ukstreamers/media/recent?access_token=<Instagram_token_here>";
     }
 }
